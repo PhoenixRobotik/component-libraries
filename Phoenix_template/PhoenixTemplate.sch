@@ -41,7 +41,7 @@ Sheet 1 1
 Title ""
 Date ""
 Rev ""
-Comp ""
+Comp "Phoenix Robotik"
 Comment1 ""
 Comment2 ""
 Comment3 ""
@@ -74,7 +74,7 @@ F 1 "Serial Wire" V 10550 2400 50  0000 C CNN
 F 2 "Pin_Headers:Pin_Header_Straight_1x06" H 10450 2400 50  0001 C CNN
 F 3 "" H 10450 2400 50  0000 C CNN
 	1    10450 2400
-	-1   0    0    -1
+	-1   0    0    -1  
 $EndComp
 Text GLabel 9850 6200 2    60   Input ~ 0
 CAN_H
@@ -89,7 +89,7 @@ F 1 "GND" V 9850 6150 50  0000 L CNN
 F 2 "" H 9850 6400 50  0000 C CNN
 F 3 "" H 9850 6400 50  0000 C CNN
 	1    9850 6400
-	0    -1   -1   0
+	0    -1   -1   0   
 $EndComp
 $Comp
 L +5V #PWR02
@@ -100,7 +100,7 @@ F 1 "+5V" H 9350 4190 50  0000 C CNN
 F 2 "" H 9350 4050 50  0000 C CNN
 F 3 "" H 9350 4050 50  0000 C CNN
 	1    9350 4050
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 $Comp
 L LD1117S33TR U2
@@ -111,7 +111,7 @@ F 1 "LD1117S33TR" H 10000 4300 50  0000 C CNN
 F 2 "TO_SOT_Packages_SMD:SOT-223" H 10000 4200 50  0001 C CNN
 F 3 "" H 10000 4100 50  0000 C CNN
 	1    10000 4100
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 $Comp
 L GND #PWR03
@@ -122,7 +122,7 @@ F 1 "GND" H 10000 4200 50  0000 C CNN
 F 2 "" H 10000 4350 50  0000 C CNN
 F 3 "" H 10000 4350 50  0000 C CNN
 	1    10000 4350
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 $Comp
 L +3.3V #PWR04
@@ -133,7 +133,7 @@ F 1 "+3.3V" H 10700 4190 50  0000 C CNN
 F 2 "" H 10700 4050 50  0000 C CNN
 F 3 "" H 10700 4050 50  0000 C CNN
 	1    10700 4050
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 Text GLabel 4650 3500 0    60   Input ~ 0
 STATUS_LED
@@ -148,7 +148,7 @@ F 1 "R" V 8250 5800 50  0000 C CNN
 F 2 "Resistors_SMD:R_0805_HandSoldering" V 8180 5800 50  0001 C CNN
 F 3 "" H 8250 5800 50  0000 C CNN
 	1    8250 5800
-	0    -1   -1   0
+	0    -1   -1   0   
 $EndComp
 $Comp
 L LED D6
@@ -159,7 +159,7 @@ F 1 "LED STATUS" H 8450 5900 50  0000 R CNN
 F 2 "LEDs:LED_0805" H 8550 5800 50  0001 C CNN
 F 3 "" H 8550 5800 50  0000 C CNN
 	1    8550 5800
-	-1   0    0    1
+	-1   0    0    1   
 $EndComp
 $Comp
 L GND #PWR05
@@ -170,7 +170,7 @@ F 1 "GND" V 8700 5600 50  0000 C CNN
 F 2 "" H 8700 5800 50  0000 C CNN
 F 3 "" H 8700 5800 50  0000 C CNN
 	1    8700 5800
-	0    -1   -1   0
+	0    -1   -1   0   
 $EndComp
 Text GLabel 5250 2800 1    60   Input ~ 0
 BOOT0
@@ -187,7 +187,7 @@ F 1 "+3.3V" V 4650 3550 50  0000 C CNN
 F 2 "" H 4650 3300 50  0000 C CNN
 F 3 "" H 4650 3300 50  0000 C CNN
 	1    4650 3300
-	0    -1   -1   0
+	0    -1   -1   0   
 $EndComp
 $Comp
 L +3.3V #PWR07
@@ -198,7 +198,7 @@ F 1 "+3.3V" V 6350 4250 50  0000 C CNN
 F 2 "" H 6350 4000 50  0000 C CNN
 F 3 "" H 6350 4000 50  0000 C CNN
 	1    6350 4000
-	0    1    1    0
+	0    1    1    0   
 $EndComp
 $Comp
 L GND #PWR08
@@ -209,7 +209,7 @@ F 1 "GND" V 5850 4300 50  0000 C CNN
 F 2 "" H 5850 4500 50  0000 C CNN
 F 3 "" H 5850 4500 50  0000 C CNN
 	1    5850 4500
-	0    -1   -1   0
+	0    -1   -1   0   
 $EndComp
 $Comp
 L MCP2562 IC1
@@ -220,7 +220,7 @@ F 1 "MCP2562" H 10550 5000 40  0000 C CNN
 F 2 "Housings_SOIC:SOIC-8_3.9x4.9mm_Pitch1.27mm" H 10300 5300 35  0001 C CIN
 F 3 "" H 10300 5300 60  0000 C CNN
 	1    10300 5300
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 Text GLabel 9850 5200 0    60   Input ~ 0
 CAN_TX
@@ -239,7 +239,7 @@ F 1 "GND" H 10300 5550 50  0000 C CNN
 F 2 "" H 10300 5700 50  0000 C CNN
 F 3 "" H 10300 5700 50  0000 C CNN
 	1    10300 5700
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 $Comp
 L +5V #PWR010
@@ -250,7 +250,7 @@ F 1 "+5V" H 10300 5040 50  0000 C CNN
 F 2 "" H 10300 4900 50  0000 C CNN
 F 3 "" H 10300 4900 50  0000 C CNN
 	1    10300 4900
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 $Comp
 L R R4
@@ -261,7 +261,7 @@ F 1 "R" V 8250 6300 50  0000 C CNN
 F 2 "Resistors_SMD:R_0805_HandSoldering" V 8180 6300 50  0001 C CNN
 F 3 "" H 8250 6300 50  0000 C CNN
 	1    8250 6300
-	0    -1   -1   0
+	0    -1   -1   0   
 $EndComp
 $Comp
 L LED D4
@@ -272,7 +272,7 @@ F 1 "LED PWR" H 8450 6400 50  0000 R CNN
 F 2 "LEDs:LED_0805" H 8550 6300 50  0001 C CNN
 F 3 "" H 8550 6300 50  0000 C CNN
 	1    8550 6300
-	-1   0    0    1
+	-1   0    0    1   
 $EndComp
 $Comp
 L GND #PWR011
@@ -283,7 +283,7 @@ F 1 "GND" V 8700 6100 50  0000 C CNN
 F 2 "" H 8700 6300 50  0000 C CNN
 F 3 "" H 8700 6300 50  0000 C CNN
 	1    8700 6300
-	0    -1   -1   0
+	0    -1   -1   0   
 $EndComp
 $Comp
 L +3.3V #PWR012
@@ -294,7 +294,7 @@ F 1 "+3.3V" V 7950 6550 50  0000 C CNN
 F 2 "" H 7950 6300 50  0000 C CNN
 F 3 "" H 7950 6300 50  0000 C CNN
 	1    7950 6300
-	0    -1   -1   0
+	0    -1   -1   0   
 $EndComp
 $Comp
 L C C5
@@ -305,7 +305,7 @@ F 1 "0.1µF" H 9300 2300 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0805_HandSoldering" H 9588 2250 50  0001 C CNN
 F 3 "" H 9550 2400 50  0000 C CNN
 	1    9550 2400
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 $Comp
 L GND #PWR014
@@ -316,7 +316,7 @@ F 1 "GND" H 9850 2550 50  0000 C CNN
 F 2 "" H 9850 2700 50  0000 C CNN
 F 3 "" H 9850 2700 50  0000 C CNN
 	1    9850 2700
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 $Comp
 L +3.3V #PWR015
@@ -327,7 +327,7 @@ F 1 "+3.3V" V 10600 1700 50  0000 C CNN
 F 2 "" H 10600 1450 50  0000 C CNN
 F 3 "" H 10600 1450 50  0000 C CNN
 	1    10600 1450
-	0    1    1    0
+	0    1    1    0   
 $EndComp
 $Comp
 L R R9
@@ -338,7 +338,7 @@ F 1 "R" V 10450 1450 50  0000 C CNN
 F 2 "Resistors_SMD:R_0805_HandSoldering" V 10380 1450 50  0001 C CNN
 F 3 "" H 10450 1450 50  0000 C CNN
 	1    10450 1450
-	0    1    1    0
+	0    1    1    0   
 $EndComp
 $Comp
 L R R10
@@ -349,7 +349,7 @@ F 1 "R" V 9950 1450 50  0000 C CNN
 F 2 "Resistors_SMD:R_0805_HandSoldering" V 9880 1450 50  0001 C CNN
 F 3 "" H 9950 1450 50  0000 C CNN
 	1    9950 1450
-	0    1    1    0
+	0    1    1    0   
 $EndComp
 $Comp
 L GND #PWR016
@@ -360,7 +360,7 @@ F 1 "GND" V 9800 1250 50  0000 C CNN
 F 2 "" H 9800 1450 50  0000 C CNN
 F 3 "" H 9800 1450 50  0000 C CNN
 	1    9800 1450
-	0    1    1    0
+	0    1    1    0   
 $EndComp
 Text Notes 9550 1650 0    60   ~ 0
 Main Flash
@@ -375,7 +375,7 @@ F 1 "GND" V 10650 2100 50  0000 L CNN
 F 2 "" H 10650 2350 50  0000 C CNN
 F 3 "" H 10650 2350 50  0000 C CNN
 	1    10650 2350
-	0    -1   -1   0
+	0    -1   -1   0   
 $EndComp
 $Comp
 L +3.3V #PWR018
@@ -386,7 +386,7 @@ F 1 "+3.3V" V 10650 2250 50  0000 L CNN
 F 2 "" H 10650 2150 50  0000 C CNN
 F 3 "" H 10650 2150 50  0000 C CNN
 	1    10650 2150
-	0    1    1    0
+	0    1    1    0   
 $EndComp
 $Comp
 L STM32F303K8 U3
@@ -397,7 +397,7 @@ F 1 "STM32F303K8" H 5500 4000 60  0000 C CNN
 F 2 "Housings_QFP:LQFP-32_7x7mm_Pitch0.8mm" H 5800 4550 60  0001 C CNN
 F 3 "" H 5800 4550 60  0001 C CNN
 	1    5550 3700
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 $Comp
 L CAN_conn P6
@@ -408,7 +408,7 @@ F 1 "CAN_conn" V 9950 6250 50  0000 C CNN
 F 2 "Connectors_JST:JST_XH_B04B-XH-A_04x2.50mm_Straight" H 9650 6250 50  0001 C CNN
 F 3 "" H 9650 6250 50  0000 C CNN
 	1    9650 6250
-	-1   0    0    -1
+	-1   0    0    -1  
 $EndComp
 $Comp
 L CAN_conn P9
@@ -419,7 +419,7 @@ F 1 "CAN_conn" V 10900 6250 50  0000 C CNN
 F 2 "Connectors_JST:JST_XH_B04B-XH-A_04x2.50mm_Straight" H 10600 6250 50  0001 C CNN
 F 3 "" H 10600 6250 50  0000 C CNN
 	1    10600 6250
-	-1   0    0    -1
+	-1   0    0    -1  
 $EndComp
 Text Notes 9300 1350 0    60   ~ 0
 Choice must be done between R3 or R4
@@ -432,7 +432,7 @@ F 1 "SW_PUSH_SMALL_H" H 9900 2600 50  0001 C CNN
 F 2 "Buttons_Switches_SMD:SW_SPST_EVQPE1" H 9850 2600 50  0001 C CNN
 F 3 "" H 9850 2600 50  0000 C CNN
 	1    9850 2400
-	0    1    1    0
+	0    1    1    0   
 $EndComp
 $Comp
 L LD1117S50TR U1
@@ -443,7 +443,7 @@ F 1 "LD1117S50TR" H 10000 3600 50  0000 C CNN
 F 2 "TO_SOT_Packages_SMD:SOT-223" H 10000 3500 50  0001 C CNN
 F 3 "" H 10000 3400 50  0000 C CNN
 	1    10000 3400
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 $Comp
 L C C2
@@ -454,7 +454,7 @@ F 1 "100nF" H 9475 4100 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0805_HandSoldering" H 9488 4050 50  0001 C CNN
 F 3 "" H 9450 4200 50  0000 C CNN
 	1    9450 4200
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 $Comp
 L C C4
@@ -465,7 +465,7 @@ F 1 "10uF" H 10575 4100 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0805_HandSoldering" H 10588 4050 50  0001 C CNN
 F 3 "" H 10550 4200 50  0000 C CNN
 	1    10550 4200
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 $Comp
 L GND #PWR019
@@ -476,7 +476,7 @@ F 1 "GND" H 9450 4200 50  0000 C CNN
 F 2 "" H 9450 4350 50  0000 C CNN
 F 3 "" H 9450 4350 50  0000 C CNN
 	1    9450 4350
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 $Comp
 L GND #PWR020
@@ -487,7 +487,7 @@ F 1 "GND" H 10550 4200 50  0000 C CNN
 F 2 "" H 10550 4350 50  0000 C CNN
 F 3 "" H 10550 4350 50  0000 C CNN
 	1    10550 4350
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 $Comp
 L +5V #PWR021
@@ -498,7 +498,7 @@ F 1 "+5V" H 10700 3490 50  0000 C CNN
 F 2 "" H 10700 3350 50  0000 C CNN
 F 3 "" H 10700 3350 50  0000 C CNN
 	1    10700 3350
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 $Comp
 L C C1
@@ -509,7 +509,7 @@ F 1 "100nF" H 9475 3400 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0805_HandSoldering" H 9488 3350 50  0001 C CNN
 F 3 "" H 9450 3500 50  0000 C CNN
 	1    9450 3500
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 $Comp
 L GND #PWR022
@@ -520,7 +520,7 @@ F 1 "GND" H 9450 3500 50  0000 C CNN
 F 2 "" H 9450 3650 50  0000 C CNN
 F 3 "" H 9450 3650 50  0000 C CNN
 	1    9450 3650
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 $Comp
 L C C3
@@ -531,7 +531,7 @@ F 1 "10uF" H 10575 3400 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0805_HandSoldering" H 10588 3350 50  0001 C CNN
 F 3 "" H 10550 3500 50  0000 C CNN
 	1    10550 3500
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 $Comp
 L GND #PWR023
@@ -542,7 +542,7 @@ F 1 "GND" H 10550 3500 50  0000 C CNN
 F 2 "" H 10550 3650 50  0000 C CNN
 F 3 "" H 10550 3650 50  0000 C CNN
 	1    10550 3650
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 $Comp
 L GND #PWR024
@@ -553,7 +553,7 @@ F 1 "GND" H 10000 3500 50  0000 C CNN
 F 2 "" H 10000 3650 50  0000 C CNN
 F 3 "" H 10000 3650 50  0000 C CNN
 	1    10000 3650
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 $Comp
 L +9V #PWR025
@@ -564,7 +564,7 @@ F 1 "+9V" V 9850 6200 50  0000 L CNN
 F 2 "" H 9850 6100 50  0000 C CNN
 F 3 "" H 9850 6100 50  0000 C CNN
 	1    9850 6100
-	0    1    1    0
+	0    1    1    0   
 $EndComp
 $Comp
 L +9V #PWR026
@@ -575,7 +575,7 @@ F 1 "+9V" H 9350 3490 50  0000 C CNN
 F 2 "" H 9350 3350 50  0000 C CNN
 F 3 "" H 9350 3350 50  0000 C CNN
 	1    9350 3350
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 Text GLabel 7950 6050 0    60   Input ~ 0
 ACTIVITY_LED
@@ -588,7 +588,7 @@ F 1 "R" V 8250 6050 50  0000 C CNN
 F 2 "Resistors_SMD:R_0805_HandSoldering" V 8180 6050 50  0001 C CNN
 F 3 "" H 8250 6050 50  0000 C CNN
 	1    8250 6050
-	0    -1   -1   0
+	0    -1   -1   0   
 $EndComp
 $Comp
 L LED D5
@@ -599,7 +599,7 @@ F 1 "LED ACTIVITY" H 8450 6150 50  0000 R CNN
 F 2 "LEDs:LED_0805" H 8550 6050 50  0001 C CNN
 F 3 "" H 8550 6050 50  0000 C CNN
 	1    8550 6050
-	-1   0    0    1
+	-1   0    0    1   
 $EndComp
 $Comp
 L GND #PWR027
@@ -610,7 +610,7 @@ F 1 "GND" V 8700 5850 50  0000 C CNN
 F 2 "" H 8700 6050 50  0000 C CNN
 F 3 "" H 8700 6050 50  0000 C CNN
 	1    8700 6050
-	0    -1   -1   0
+	0    -1   -1   0   
 $EndComp
 Text GLabel 4650 3400 0    60   Input ~ 0
 ACTIVITY_LED
@@ -645,7 +645,7 @@ F 1 "GND" V 5150 2600 50  0000 C CNN
 F 2 "" H 5150 2800 50  0000 C CNN
 F 3 "" H 5150 2800 50  0000 C CNN
 	1    5150 2800
-	0    1    1    0
+	0    1    1    0   
 $EndComp
 $Comp
 L +3.3V #PWR029
@@ -656,7 +656,7 @@ F 1 "+3.3V" V 4650 3950 50  0000 C CNN
 F 2 "" H 4650 3700 50  0000 C CNN
 F 3 "" H 4650 3700 50  0000 C CNN
 	1    4650 3700
-	0    -1   -1   0
+	0    -1   -1   0   
 $EndComp
 Text GLabel 10800 6200 2    60   Input ~ 0
 CAN_H
@@ -671,7 +671,7 @@ F 1 "GND" V 10800 6150 50  0000 L CNN
 F 2 "" H 10800 6400 50  0000 C CNN
 F 3 "" H 10800 6400 50  0000 C CNN
 	1    10800 6400
-	0    -1   -1   0
+	0    -1   -1   0   
 $EndComp
 $Comp
 L +9V #PWR031
@@ -682,7 +682,7 @@ F 1 "+9V" V 10800 6200 50  0000 L CNN
 F 2 "" H 10800 6100 50  0000 C CNN
 F 3 "" H 10800 6100 50  0000 C CNN
 	1    10800 6100
-	0    1    1    0
+	0    1    1    0   
 $EndComp
 $Comp
 L +3.3V #PWR032
@@ -693,7 +693,7 @@ F 1 "+3.3V" V 9850 5450 50  0000 L CNN
 F 2 "" H 9850 5350 50  0000 C CNN
 F 3 "" H 9850 5350 50  0000 C CNN
 	1    9850 5350
-	0    -1   -1   0
+	0    -1   -1   0   
 $EndComp
 $Comp
 L GND #PWR033
@@ -704,7 +704,7 @@ F 1 "GND" V 9850 5250 50  0000 L CNN
 F 2 "" H 9850 5500 50  0000 C CNN
 F 3 "" H 9850 5500 50  0000 C CNN
 	1    9850 5500
-	0    1    1    0
+	0    1    1    0   
 $EndComp
 Wire Notes Line
 	9250 6500 11200 6500
