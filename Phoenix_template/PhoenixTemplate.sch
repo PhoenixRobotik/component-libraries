@@ -76,9 +76,9 @@ F 3 "" H 10450 2400 50  0000 C CNN
 	1    10450 2400
 	-1   0    0    -1  
 $EndComp
-Text GLabel 9850 6200 2    60   Input ~ 0
-CAN_H
 Text GLabel 9850 6300 2    60   Input ~ 0
+CAN_H
+Text GLabel 9850 6200 2    60   Input ~ 0
 CAN_L
 $Comp
 L GND #PWR01
@@ -402,23 +402,23 @@ $EndComp
 $Comp
 L CAN_conn P6
 U 1 1 589A96C0
-P 9650 6250
-F 0 "P6" H 9650 6500 50  0000 C CNN
-F 1 "CAN_conn" V 9950 6250 50  0000 C CNN
-F 2 "Connectors_JST:JST_XH_B04B-XH-A_04x2.50mm_Straight" H 9650 6250 50  0001 C CNN
-F 3 "" H 9650 6250 50  0000 C CNN
-	1    9650 6250
+P 9700 6250
+F 0 "P6" H 9700 6500 50  0000 C CNN
+F 1 "CAN_conn" V 10050 6250 50  0000 C CNN
+F 2 "Connectors_JST:JST_XH_B04B-XH-A_04x2.50mm_Straight" H 9700 6250 50  0001 C CNN
+F 3 "" H 9700 6250 50  0000 C CNN
+	1    9700 6250
 	-1   0    0    -1  
 $EndComp
 $Comp
 L CAN_conn P9
 U 1 1 589A99A9
-P 10600 6250
-F 0 "P9" H 10600 6500 50  0000 C CNN
-F 1 "CAN_conn" V 10900 6250 50  0000 C CNN
-F 2 "Connectors_JST:JST_XH_B04B-XH-A_04x2.50mm_Straight" H 10600 6250 50  0001 C CNN
-F 3 "" H 10600 6250 50  0000 C CNN
-	1    10600 6250
+P 10650 6250
+F 0 "P9" H 10650 6500 50  0000 C CNN
+F 1 "CAN_conn" V 11000 6250 50  0000 C CNN
+F 2 "Connectors_JST:JST_XH_B04B-XH-A_04x2.50mm_Straight" H 10650 6250 50  0001 C CNN
+F 3 "" H 10650 6250 50  0000 C CNN
+	1    10650 6250
 	-1   0    0    -1  
 $EndComp
 Text Notes 9300 1350 0    60   ~ 0
@@ -658,9 +658,9 @@ F 3 "" H 4650 3700 50  0000 C CNN
 	1    4650 3700
 	0    -1   -1   0   
 $EndComp
-Text GLabel 10800 6200 2    60   Input ~ 0
-CAN_H
 Text GLabel 10800 6300 2    60   Input ~ 0
+CAN_H
+Text GLabel 10800 6200 2    60   Input ~ 0
 CAN_L
 $Comp
 L GND #PWR030
